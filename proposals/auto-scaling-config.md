@@ -13,14 +13,14 @@ express or implied. See the License for the specific language governing
 permissions and limitations under the License.
 -->
 
-#Support ECS autoscaling in compose
+# Support ECS autoscaling in compose
 
-##Introduction
+## Introduction
 ([#Issue 205](https://github.com/aws/amazon-ecs-cli/issues/205))
 
 The current implementation of ecs-cli does not support autoscaling of the service after it has been setup.
 
-##Resources that is involved
+## Resources that is involved
 
 AWS::AutoScaling::ScalingPolicy
 
@@ -35,4 +35,4 @@ AWS::CloudWatch::Alarm
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html
 
 
-##Proposal
+## Proposal
